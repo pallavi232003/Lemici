@@ -13,7 +13,7 @@ import sqlite3
 # -------------------------------
 # Setup Cohere
 # -------------------------------
-COHERE_API_KEY = "hU3sWTKYF6nBPPjIIXHidDx2BqyWNVl0LyLzjPzQ"  # 🔑 Replace with your key
+COHERE_API_KEY = "hU3sWTKYF6nBPPjIIXHidDx2BqyWNVl0LyLzjPzQ" 
 co = cohere.Client(COHERE_API_KEY)
 
 # -------------------------------
@@ -246,3 +246,4 @@ st.pyplot(fig)
 
     else:
         st.error("Unsupported file type")
+
